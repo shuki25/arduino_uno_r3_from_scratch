@@ -44,6 +44,7 @@ Temporary Items
 
 # KiCad Backup Files
 *.sch-bak
+*-backups/
 
 #Files from KiCad plugins
 .log
