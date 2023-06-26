@@ -132,118 +132,6 @@
         )
       )
     )
-    (symbol "Arduino_Uno_R3_From_Scratch:5V_LDO" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 2.286 0)
-        (effects (font (size 0.508 0.508)) hide)
-      )
-      (property "Value" "5V_LDO" (at 0 3.048 0)
-        (effects (font (size 1.016 1.016)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (symbol "5V_LDO_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "5V_LDO" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 0.508 0.508))))
-        )
-      )
-      (symbol "5V_LDO_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.016)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (circle (center 0 1.524) (radius 0.508)
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Arduino_Uno_R3_From_Scratch:USBVCC" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 2.286 0)
-        (effects (font (size 0.508 0.508)) hide)
-      )
-      (property "Value" "USBVCC" (at 0 3.048 0)
-        (effects (font (size 1.016 1.016)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (symbol "USBVCC_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "USBVCC" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 0.508 0.508))))
-        )
-      )
-      (symbol "USBVCC_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.016)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (circle (center 0 1.524) (radius 0.508)
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "Arduino_Uno_R3_From_Scratch:Vin" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 2.286 0)
-        (effects (font (size 0.508 0.508)) hide)
-      )
-      (property "Value" "Vin" (at 0 3.048 0)
-        (effects (font (size 0.762 0.762)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.524 1.524)))
-      )
-      (symbol "Vin_0_0"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "Vin" (effects (font (size 0.508 0.508))))
-          (number "1" (effects (font (size 0.508 0.508))))
-        )
-      )
-      (symbol "Vin_0_1"
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy 0 1.016)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 0.762)
-            (xy 0 0.762)
-            (xy 0 0.762)
-          )
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-        (circle (center 0 1.524) (radius 0.508)
-          (stroke (width 0.1524) (type solid))
-          (fill (type none))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -530,6 +418,58 @@
         )
       )
     )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -566,6 +506,110 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VBUS" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VBUS" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VBUS\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VBUS_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VBUS_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VBUS" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "VCC" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "VCC_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -780,8 +824,8 @@
     (property "MPN" "CRCW080510K0JNEA" (at 121.92 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0931807a-297e-434d-b5d2-4c23eb5f8565))
-    (pin "2" (uuid ee49b8e4-a534-4e5b-a415-1b5ad3b89484))
+    (pin "1" (uuid 68b3286f-ab6a-4f61-a1ee-aec7ddd56ed9))
+    (pin "2" (uuid 6c08c575-14f4-4faa-9984-1357ee4a5159))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -833,9 +877,9 @@
     (property "MPN" "FDN340P" (at 175.26 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d304e643-8cfc-432d-a144-2208d340c693))
-    (pin "2" (uuid da75c0bb-67c5-4992-90d3-5cfaba9be095))
-    (pin "3" (uuid e96ed364-b28f-4c30-b0d3-ab534d5307d1))
+    (pin "1" (uuid b3de9c5c-32c5-4f14-af66-a6b52402427f))
+    (pin "2" (uuid dcabe470-fa42-4d8b-a29e-36bc484683fc))
+    (pin "3" (uuid 00f81926-fe37-48f4-a9bb-baec35fe9171))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -887,14 +931,14 @@
     (property "MPN" "LMV358IDGKR" (at 149.86 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00edf9ad-0489-4c7d-8827-4fc5f6d9a65c))
-    (pin "2" (uuid 9a417dbf-ce06-4fa3-97bd-152421c12b41))
-    (pin "3" (uuid 27e55906-2df2-4b91-a510-a1aa9287b1e8))
-    (pin "5" (uuid 54f2e4ac-a054-4f18-bf44-26e57e639859))
-    (pin "6" (uuid 3d05e415-5581-4b2b-96aa-805400df72a7))
-    (pin "7" (uuid 878c2c7d-1891-4403-89fd-e65e374ba3fc))
-    (pin "4" (uuid 62d35f7d-f790-4a7a-84ff-8ad697db7cb0))
-    (pin "8" (uuid d0c64d52-b6ee-40d4-ad7b-b19768dd2cd5))
+    (pin "1" (uuid 3241f2cc-934d-4533-8e3b-d94c412c7996))
+    (pin "2" (uuid 521a457c-62f7-467e-994d-3bb16dbf02d3))
+    (pin "3" (uuid 12a58620-b1b1-4b25-864a-bf0d3a758eb7))
+    (pin "5" (uuid 99b7e889-4842-40ca-865b-b23007c0f37d))
+    (pin "6" (uuid 7542490c-affc-4eea-936a-e4051845ccc2))
+    (pin "7" (uuid 486751a8-cc6b-42b3-a1a1-cf61a517bc2b))
+    (pin "4" (uuid dc683d4c-cd21-4377-84af-da35179d77d9))
+    (pin "8" (uuid a72e63a3-a3c6-48f6-97f5-50b3e99646e1))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -928,7 +972,7 @@
     (property "Notes" "~" (at 101.6 76.2 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid eecf9324-e43e-42a7-ae93-4e3626a466c1))
+    (pin "1" (uuid d74dd0e6-ff63-4eee-bf84-897c926544cf))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -938,7 +982,7 @@
     )
   )
 
-  (symbol (lib_id "Arduino_Uno_R3_From_Scratch:USBVCC") (at 165.1 104.14 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 165.1 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000055d126ce)
     (property "Reference" "#PWR012" (at 165.1 101.854 0)
@@ -948,12 +992,12 @@
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "~" (at 165.1 104.14 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 104.14 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a9d9609a-dd70-446e-a4b8-6844830bb79c))
+    (pin "1" (uuid 454a3a35-450e-4343-857b-debbb00e7050))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1005,11 +1049,11 @@
     (property "MPN" "LP2985-33DBVR" (at 214.63 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b3bc17d7-cde7-47f1-8984-eb9892d4427a))
-    (pin "2" (uuid 83e5ab81-cc8b-4f79-93df-72881fd647ec))
-    (pin "3" (uuid 8f040956-2162-4a46-a1ff-e2fb956bdd91))
-    (pin "4" (uuid 72c774be-0f1c-4f56-a1c9-5cbe698a49fa))
-    (pin "5" (uuid c20254e8-408a-4de3-a2bd-b2d06eece60a))
+    (pin "1" (uuid 6168f726-2927-445b-9c43-b1e35f9626e6))
+    (pin "2" (uuid 87a72db7-553d-4541-b921-eca73fc7074b))
+    (pin "3" (uuid 26b3b23a-ea30-489b-ad9f-81e18a571d39))
+    (pin "4" (uuid fdf70fe9-6625-45db-8b77-c07cd1af522b))
+    (pin "5" (uuid 24a1cfe8-19e9-449d-b695-8faed87ee7d8))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1061,8 +1105,8 @@
     (property "MPN" "C2012X7R1C225K125AB" (at 229.87 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fc6a5b85-9962-4601-863a-ea4f0e468474))
-    (pin "2" (uuid 0a3954b7-3102-4ad6-8299-58cf683b1653))
+    (pin "1" (uuid b83ce032-5e02-484a-99c3-e79f4b41e3c8))
+    (pin "2" (uuid 5899a086-bf4a-4f30-8564-ec6170c43dcf))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1114,8 +1158,8 @@
     (property "MPN" "C0805C105K8RACAUTO " (at 190.5 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e0e5176c-7011-4183-80cb-47a6433c4751))
-    (pin "2" (uuid a7923b12-ea56-4307-95cc-4ca544031569))
+    (pin "1" (uuid 88e79d24-ecac-4fed-859c-b8aaaf1301ef))
+    (pin "2" (uuid aa989a5a-12e2-4d73-923a-8b45b500d390))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1167,8 +1211,8 @@
     (property "MPN" "CRCW080510K0JNEA" (at 121.92 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a8ea7eab-48b3-4b35-ad21-8f3c5816f742))
-    (pin "2" (uuid d381cfa1-1820-4218-af14-5b9782463a84))
+    (pin "1" (uuid a410e387-c62a-4200-a33c-6d29aff0a5ca))
+    (pin "2" (uuid d960f9c7-a67f-448c-ad0b-555067d854a3))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1220,8 +1264,8 @@
     (property "MPN" "C0805C104K1RACAUTO" (at 92.71 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6956545-7a33-4d4f-bccd-63b1aefd198d))
-    (pin "2" (uuid 78d7be0b-386a-4c6e-927f-f79e4b3d216c))
+    (pin "1" (uuid 879cb7e5-1148-46bc-b732-a4afc9f00906))
+    (pin "2" (uuid de39ad01-907e-448c-ab0c-4bea70296362))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1246,7 +1290,7 @@
     (property "Datasheet" "~" (at 229.87 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid 75e9c09e-303e-4819-8352-5f4db3db4a37))
+    (pin "1" (uuid d727faad-973f-478c-a57b-6da784587d09))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1259,7 +1303,7 @@
     )
   )
 
-  (symbol (lib_id "Arduino_Uno_R3_From_Scratch:5V_LDO") (at 184.15 95.25 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 184.15 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000055e957ae)
     (property "Reference" "#PWR014" (at 184.15 92.964 0)
@@ -1269,12 +1313,12 @@
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "~" (at 184.15 95.25 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 184.15 95.25 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 65618a8c-8180-4237-bf6c-e2bc59db3ff4))
+    (pin "1" (uuid 5942a5a3-b243-4c05-8e53-bf319bf8d1ad))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1284,7 +1328,7 @@
     )
   )
 
-  (symbol (lib_id "Arduino_Uno_R3_From_Scratch:5V_LDO") (at 82.55 64.77 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 82.55 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000055e957bd)
     (property "Reference" "#PWR015" (at 82.55 62.484 0)
@@ -1294,12 +1338,12 @@
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "~" (at 82.55 64.77 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 82.55 64.77 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e01a106c-e664-44c3-ad48-cd034113d846))
+    (pin "1" (uuid 92b1123e-f44a-4ae3-9d88-ea0668f7d47e))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1309,7 +1353,7 @@
     )
   )
 
-  (symbol (lib_id "Arduino_Uno_R3_From_Scratch:Vin") (at 121.92 64.77 0) (unit 1)
+  (symbol (lib_id "power:VBUS") (at 121.92 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000055e957db)
     (property "Reference" "#PWR016" (at 121.92 62.484 0)
@@ -1319,12 +1363,12 @@
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "~" (at 121.92 64.77 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 64.77 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2146e5ac-283e-4e34-97fc-9f55ea66713e))
+    (pin "1" (uuid 7f7f46b7-c5b7-42b1-bed5-70b787d35c6d))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1352,7 +1396,7 @@
     (property "Datasheet" "~" (at 134.62 76.2 0)
       (effects (font (size 1.524 1.524)))
     )
-    (pin "1" (uuid eb684fa2-417b-4c5f-9bb8-edec552d48b3))
+    (pin "1" (uuid 337d6133-c3ca-49b2-afe3-d5297be75f3e))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1389,7 +1433,7 @@
     (property "Notes" "~" (at 190.5 135.89 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid ec1124c1-e889-4bbc-aa2d-c79a6a519ddf))
+    (pin "1" (uuid ef8fe2a2-db65-4cd9-a270-836c8fc82f3d))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1423,7 +1467,7 @@
     (property "Notes" "~" (at 214.63 135.89 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid f4fc45a1-3ad4-4612-abdb-4e5273a2d883))
+    (pin "1" (uuid f34f6566-89f0-4624-83d4-479aeefe3186))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1457,7 +1501,7 @@
     (property "Notes" "~" (at 229.87 135.89 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 440f6489-ed20-48a0-9b47-62f5a245abaf))
+    (pin "1" (uuid b41a7549-e5cd-4725-a7fb-872e0dae5413))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1491,7 +1535,7 @@
     (property "Notes" "~" (at 82.55 106.68 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 9583c645-81ca-442e-a19b-2f7043b8a4fb))
+    (pin "1" (uuid d7271e74-d300-4d38-acaf-cee016d1401d))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1543,14 +1587,14 @@
     (property "MPN" "LMV358IDGKR" (at 85.09 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9551b0f2-033e-4067-9f98-d5c806bdb281))
-    (pin "2" (uuid 03c38173-7229-4048-bbf8-a218d40b3dc8))
-    (pin "3" (uuid eb42727d-5c17-487c-8c6b-378fffc196f4))
-    (pin "5" (uuid edc0fe04-86d6-4fb5-b812-edd197134ca0))
-    (pin "6" (uuid fb1a20d4-ca3c-4214-9940-cc5ced70eae9))
-    (pin "7" (uuid b13d3897-ee8d-4af4-8566-6a129599f888))
-    (pin "4" (uuid 4db35008-8ecd-487c-a1cd-44d88aa49145))
-    (pin "8" (uuid f179b977-8bb0-40e6-8d4b-c27778af25f5))
+    (pin "1" (uuid 52ad7ca8-a97f-4786-9a8c-5a8abb52898a))
+    (pin "2" (uuid 9e63e040-0553-4daa-886d-4d54b7021978))
+    (pin "3" (uuid 4d4e99e1-c3f7-4d70-8049-2047ae36bc16))
+    (pin "5" (uuid 9caa342a-6cfc-4cc2-8468-e16d2e4361ae))
+    (pin "6" (uuid be384b76-68f7-4d5d-8278-ed1595542a8c))
+    (pin "7" (uuid 3a77f54b-002f-4297-ac7a-d02fd94b192a))
+    (pin "4" (uuid 34dbb6c7-23b9-4507-8b0f-9baee8326bba))
+    (pin "8" (uuid 2a2dbfe8-9027-49d0-95f4-9b1e6d8d9518))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"
@@ -1584,7 +1628,7 @@
     (property "Notes" "~" (at 121.92 106.68 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid e74f21dd-45ee-4cbf-a3ea-41c0222a377d))
+    (pin "1" (uuid 9ab9fb31-9475-49fa-b0d0-0ef483fa561a))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d0d7e6"

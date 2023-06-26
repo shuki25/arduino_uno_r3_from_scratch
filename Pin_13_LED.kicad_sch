@@ -344,7 +344,7 @@
     (uuid c35bcf39-d236-43ec-8d96-d13bcb403ab3)
   )
 
-  (hierarchical_label "SCK" (shape input) (at 115.57 99.06 180)
+  (hierarchical_label "SCK" (shape input) (at 115.57 99.06 180) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify right))
     (uuid 0322650d-d3a5-40e0-b887-cf71f10916ee)
   )
@@ -391,14 +391,14 @@
     (property "MPN" "LMV358IDGKR" (at 143.51 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 445e92fd-ebc8-4155-9b8e-804064aef452))
-    (pin "2" (uuid 005ae99f-9e24-4b99-a949-7e82d611fe35))
-    (pin "3" (uuid d3b66640-1630-4f72-85d1-5cc3f94d25a9))
-    (pin "5" (uuid 81d260c5-1472-41be-a17a-41fb32d4a61f))
-    (pin "6" (uuid 1a31d9b6-2956-4be6-bb53-3ef36fd28f24))
-    (pin "7" (uuid 765d7afd-e96c-4e9c-a5ef-748420ca764b))
-    (pin "4" (uuid 42cace07-8868-4ceb-a441-37e246c5c2a0))
-    (pin "8" (uuid caeb4d3a-2383-49a7-abfe-75e1d4680641))
+    (pin "1" (uuid 59ff997a-6f1d-498a-8c33-4e9b3f5608f8))
+    (pin "2" (uuid 49d49a97-06c8-4e3a-8070-9bb0b4f1cabc))
+    (pin "3" (uuid 00209ea2-b918-4201-abbb-e5ea087b5691))
+    (pin "5" (uuid 273f5d83-c9b0-40e9-8068-61ca3dcea512))
+    (pin "6" (uuid 6ece6a4a-a7b4-4eb7-a181-2ace387a5f9b))
+    (pin "7" (uuid 5e2b83b5-0a49-49fb-893c-54f74a50f825))
+    (pin "4" (uuid eec7048a-6e31-43c5-baf7-21a13b64bc77))
+    (pin "8" (uuid c9f05229-1216-4eb5-98eb-f97ae9ba24c6))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d7ed28"
@@ -450,8 +450,8 @@
     (property "MPN" "LG R971-KN-1" (at 176.53 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bf73d1ff-be49-467f-812d-2d27d05a184d))
-    (pin "2" (uuid 0317e868-9ab6-453e-8fb2-1683bc2aca5e))
+    (pin "1" (uuid 4f2b58df-76b6-49f4-acb3-4aefccb0eafc))
+    (pin "2" (uuid 27cd3cfa-fdea-4c68-a426-41a4c063a73d))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d7ed28"
@@ -503,8 +503,8 @@
     (property "MPN" "RC0805FR-07510RL" (at 165.1 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e5065ba-a9f8-45b1-92ec-5bb1e65a5b38))
-    (pin "2" (uuid 2c310ad4-7b64-4091-bc33-12704acaa576))
+    (pin "1" (uuid 19f57b50-a5d0-4a4b-9853-b6523412a588))
+    (pin "2" (uuid 198fe806-e03f-4e19-a624-b2e0f46a118a))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d7ed28"
@@ -538,7 +538,7 @@
     (property "Notes" "~" (at 176.53 121.92 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 4cc34e5b-8f16-433c-8c4a-f644ae4c5431))
+    (pin "1" (uuid 51cacacf-0ea5-4da5-9b86-702ab053220c))
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6/00000000-0000-0000-0000-000055d7ed28"
