@@ -83,10 +83,6 @@
     (stroke (width 0) (type default))
     (uuid 87c2b38f-c939-4df5-894c-f447671f28ed)
   )
-  (wire (pts (xy 179.07 63.5) (xy 191.77 63.5))
-    (stroke (width 0) (type default))
-    (uuid 89cba005-f0ba-4510-96bf-a2988634543b)
-  )
   (wire (pts (xy 179.07 142.24) (xy 191.77 142.24))
     (stroke (width 0) (type default))
     (uuid 8bc94fce-752f-4906-aefc-b5c78336a285)
@@ -383,10 +379,6 @@
       (effects (font (size 1.524 1.524)) (justify right))
       (uuid 0b1748c3-5270-4cbf-8349-3a15a4e2957c)
     )
-    (pin "328P_ICSP_VIN" input (at 179.07 63.5 0)
-      (effects (font (size 1.524 1.524)) (justify right))
-      (uuid d634014e-c30e-428a-a69c-ae47f9b536cf)
-    )
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
         (path "/e37abd6a-5ce5-42fd-a932-3d77ac2d4dc6" (page "6"))
@@ -491,10 +483,6 @@
     (pin "ARD_DIG0" input (at 191.77 124.46 180)
       (effects (font (size 1.524 1.524)) (justify left))
       (uuid 708e3cf6-1809-4a08-a374-ad4016a55f82)
-    )
-    (pin "328P_ICSP_VIN" output (at 191.77 63.5 180)
-      (effects (font (size 1.524 1.524)) (justify left))
-      (uuid 29e1dd8f-fa10-479e-a186-6bb8b495e609)
     )
     (instances
       (project "Arduino_Uno_R3_From_Scratch"
